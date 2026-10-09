@@ -1,0 +1,53 @@
+
+/* Paragraph style */
+p {
+    color: #0077B6;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 16px;
+}
+
+
+/* Header style */
+
+h2 {
+    color: #FF69B4;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 24px;
+}
+
+/* Table style */
+table, td, th {
+    border-style: solid;
+    border-width: 2px;
+    border-color: purple;
+    border-collapse: collapse;
+    font-family: "Comic Sans MS", cursive;
+    color: #0077B6;
+}
+
+
+/* ID implementation and style */
+#special-paragraph {
+    color: #0077B6;
+    font-size: 18px;
+}
+
+/* Title style */
+.page-title {
+    color: #0077B6;
+    font-family: "Comic Sans MS", cursive;
+}
+
+/* Image style */
+img.logo {
+    width: 500px;
+    height: 250px;
+}
+
+
+/* List style */
+ul, ol {
+    color: #0077B6;
+    font-family: "Comic Sans MS", cursive;
+}
+
