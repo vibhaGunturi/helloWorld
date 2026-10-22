@@ -1,0 +1,46 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Contact Me</h2>
+
+{% if first_name %}
+
+    <h3>Thank You!</h3>
+    <p>Thank you for submitting the contact form!</p>
+
+    <p>First Name: {{ first_name }}</p>
+    <p>Last Name: {{ last_name }}</p>
+    <p>Email Address: {{ email }}</p>
+    <p>Message: {{ message }}</p>
+
+{% else %}
+
+    <form method="POST">
+        <div class="mb-3">
+            <label for="first_name">First Name</label>
+            <input type="text" class="form-control" id="first_name" name="first_name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="last_name">Last Name</label>
+            <input type="text" class="form-control" id="last_name" name="last_name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+{% endif %}
+
+{% endblock %}
