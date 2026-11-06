@@ -174,7 +174,7 @@ def student_edit(student_id):
             student.last_name = request.form['last_name']
             student.email = request.form['email']
             student.major_id = request.form['major_id']
-            student.birthdate = dt.strptime(request.form['birth_date'], '%Y-%m-%d')
+            student.birth_date = dt.strptime(request.form['birth_date'], '%Y-%m-%d')
             student.num_credits_completed = request.form['num_credits_completed']
             student.gpa = request.form['gpa']
             student.is_honors = True if 'is_honors' in request.form else False
@@ -218,6 +218,14 @@ def error():
 def page_not_found(e):
     flash(f'Sorry! You are trying to access a page that does not exist. Please contact support if this problem persists.', 'error')
     return render_template('404.html'), 404
+
+
+@app.route('/training')
+@login_required
+@role_required(['MANAGER', 'ADMIN'])
+def training():
+    return render_template('training.html')
+
 
 
 if __name__ == '__main__':
