@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887756b0-4aea-43c8-b337-5768dc6c1d59" name="Changes" comment="Added training.html">
+    <list default="true" id="887756b0-4aea-43c8-b337-5768dc6c1d59" name="Changes" comment="updated styling to blue theme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +171,7 @@
       <workItem from="1793315761381" duration="11880000" />
       <workItem from="1793398739732" duration="589000" />
       <workItem from="1793900070906" duration="664000" />
-      <workItem from="1793903916590" duration="5950000" />
+      <workItem from="1793903916590" duration="7582000" />
     </task>
     <task id="LOCAL-00001" summary="HTML page that describes me.">
       <option name="closed" value="true" />
@@ -279,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793963570597</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updated styling to blue theme">
+      <option name="closed" value="true" />
+      <created>1793964357087</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1793964357087</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +304,8 @@
     <MESSAGE value="Added professor's Flask login and authorization functionality and updated create_db.py to include my student and user records." />
     <MESSAGE value="Changed port to 5001 to avoid error message." />
     <MESSAGE value="Added training.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added training.html" />
+    <MESSAGE value="updated styling to blue theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated styling to blue theme" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/helloWorld$app.coverage" NAME="app Coverage Results" MODIFIED="1793963584276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
